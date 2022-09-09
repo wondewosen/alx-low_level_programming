@@ -1,12 +1,13 @@
-#include <stdio.h>
-#include <time.h>
 #include <stdlib.h>
+#include <time.h> 
+#include <stdio.h>
 
 /**
-* main - EEntry point
-*
+* main - Entry point
+* 
 * Return: Always 0 (Success/correct)
 */
+
 int main(void)
 {
 int n;
@@ -18,6 +19,7 @@ if (n == 0)
 {
 printf("%i is zero\n", n);
 }
+
 else if (n < 0)
 {
 printf("%i is negative\n", n);
