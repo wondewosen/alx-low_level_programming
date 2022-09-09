@@ -1,34 +1,67 @@
-#include <stdlib.h>
-#include <time.h>
-include <stdio.h>
+#include <stdlib.h>                                                                                         
 
-/**
-* main - Entry point
-*
-* Return: Always 0 (Success/correct)
-*/
+#include <time.h>                                                                                           
 
-int main(void)
-{
-int n;
+include <stdio.h>                                                                                           
 
-srand(time(0));
-n = rand() - RAND_MAX / 2;
+                                                                                                            
 
-if (n == 0)
-{
-printf("%i is zero\n", n);
-}
+/**                                                                                                         
 
-else if (n < 0)
-{
-printf("%i is negative\n", n);
-}
+* main - Entry point                                                                                        
 
-else
-{
-printf("%i is positive\n", n);
-}
+*                                                                                                           
 
-return (0);
+* Return: Always 0 (Success/correct)                                                                        
+
+*/                                                                                                          
+
+                                                                                                            
+
+int main(void)                                                                                              
+
+{                                                                                                           
+
+int n;                                                                                                      
+
+                                                                                                            
+
+srand(time(0));                                                                                             
+
+n = rand() - RAND_MAX / 2;                                                                                  
+
+                                                                                                            
+
+if (n == 0)                                                                                                 
+
+{                                                                                                           
+
+printf("%i is zero\n", n);                                                                                  
+
+}                                                                                                           
+
+                                                                                                            
+
+else if (n < 0)                                                                                             
+
+{                                                                                                           
+
+printf("%i is negative\n", n);                                                                              
+
+}                                                                                                           
+
+                                                                                                            
+
+else                                                                                                        
+
+{                                                                                                           
+
+printf("%i is positive\n", n);                                                                              
+
+}                                                                                                           
+
+                                                                                                            
+
+return (0);                                                                                                 
+
 }
