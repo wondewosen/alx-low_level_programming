@@ -3,6 +3,7 @@
 /**
 * main - entry point
 *
+* code to combian in two gigit
 * Return: 0 Success
 */
 int main(void)
@@ -19,8 +20,8 @@ putchar((n1 / 10) + 48);
 putchar((n1 % 10) + 48);
 putchar(' ');
 putchar((n2 / 10) + 48);
-putchra((n2 % 10) + 48);
-if (n1 !=98 ¬¬¬£|| n2 !=98)
+putchar((n2 % 10) + 48);
+if (n1 != 98 || n2 != 99)
 {
 putchar(',');
 putchar(' ');
