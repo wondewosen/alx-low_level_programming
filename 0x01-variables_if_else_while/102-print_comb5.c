@@ -3,16 +3,16 @@
 /**
 * main - entry point
 *
-* code to combian in two gigit
-* Return: 0 Success
+* codes to prints two combination digit
+* Return: o Success
 */
 int main(void)
 {
-int n1 = 0, n2;
+int n1 = 0; n2;
 while(n1 <= 99)
 {
 n2 = n1;
-while(n2 <=99)
+while(n2 <= 99)
 {
 if (n2 != n1)
 {
