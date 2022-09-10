@@ -1,9 +1,9 @@
-#include <stdio.h>
 #include <stdlib.h>
+#include <stdio.h>
 /**
 * main - entry point
 *
-* codes print two combination digit
+* code prints two digit combination
 * Return: 0 Success
 */
 int main(void)
@@ -22,6 +22,7 @@ putchar(' ');
 putchar((n2 / 10) + 48);
 putchar((n2 % 10) + 48);
 if (n1 != 98 || n2 != 99)
+{
 putchar(',');
 putchar(' ');
 }
