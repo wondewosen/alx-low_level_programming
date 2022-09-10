@@ -1,14 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
 * main - entry point
 *
-* codes to prints two combination digit
-* Return: o Success
+* code prints two digit combination
+* Return: 0 Success
 */
 int main(void)
 {
-int n1 = 0; n2;
+int n1 = 0, n2;
 while(n1 <= 99)
 {
 n2 = n1;
