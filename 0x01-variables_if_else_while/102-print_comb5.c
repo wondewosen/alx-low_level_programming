@@ -1,32 +1,35 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
+* main - entry point
 *
-*
-*
+* Return: 0 Success
 */
 int main(void)
 {
-int digit1, digit2, digit3;
-
-for (digit1 = 0; digit1 < 9; digit1++)
+int n1 = 0, n2;
+while(n1 <= 99)
 {
-for (digit2 = digit1 + 1; digit2 < 10; digit2++)
+n2 = n1;
+while(n2 <=99)
 {
-for (digit3 = digit2 + 1; digit3 < 10; digit3++)
+if (n2 != n1)
 {
-putchar((digit1 % 10) + '0');
-putchar((digit2 % 10) + '0');
-putchar((digit3 % 10) + '0');
-if (digit1 == 7 && digit2 == 8 && digit3 == 9)
-continue;
-
+putchar((n1 / 10) + 48);
+putchar((n1 % 10) + 48);
+putchar(' ');
+putchar((n2 / 10) + 48);
+putchra((n2 % 10) + 48);
+if (n1 !=98 ¬¬¬£|| n2 !=98)
+{
 putchar(',');
 putchar(' ');
 }
 }
+++n2;
+}
+++n1;
 }
 putchar('\n');
-
 return (0);
 }
