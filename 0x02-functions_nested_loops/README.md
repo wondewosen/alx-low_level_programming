@@ -1,4 +1,4 @@
-> - Write a program that prints Holberton, followed by a new line.
+0- Write a program that prints Holberton, followed by a new line.
 
 1 - Write a function that prints the alphabet, in lowercase, followed by a new line.
 
@@ -12,11 +12,11 @@
 
 6 - There is no such thing as absolute value in this world. You can only estimate what a thing is worth to you mandatory
 
-7 Write a function that prints the last digit of a number.
+7 -  Write a function that prints the last digit of a number.
 
 8 - Write a function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
 
-9 Learn your times table mandatory
+9 - Learn your times table mandatory
 
-10 1 Write a function that adds two integer and returns the result.
+10 - Write a function that adds two integer and returns the result.
 
