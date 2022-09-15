@@ -22,21 +22,18 @@ int main(void)
 
 	i = 0;
 
-	/*
-	 *
-	 * *while (i < 10)
-	 *
-	 * *{
-	 *
-	 * *     putchar(i);
-	 *
-	 * *}
-	 *
-	 * */
+	while (i < 10)
 
-	 printf("Infinite loop avoided! \\o/\n");
+		        {
+
+				                putchar(i);
+
+						        }
 
 
-	 return (0);
 
-}
+	        printf("Infinite loop avoided! \\o/\n");
+
+
+
+		        return (0);
